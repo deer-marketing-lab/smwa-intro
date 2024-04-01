@@ -1,42 +1,403 @@
 ---
-title: "Presentation"
-author: "Lachlan Deer"
-institute: "Somewhere"
+title: "Social Media and Web Analytics"
+author: "Course Introduction, Spring 2024"
+institute: "Lachlan Deer"
 format: 
   beamer: 
+    include-in-header:
+      - text: |
+          \usepackage{multirow}
+          \usepackage{booktabs}
     aspectratio: 32
     navigation: horizontal
     theme: cousteau
 ---
 
-# In the morning
+## Learning Goals for this Lecture
 
-## Getting up
+* Understand the logistical structure of the course
+* Meet your Instructors
+* Develop an understanding what Social Media & Web Analytics comprises of
+* Understand the topic coverage in this course
+* Explain how you will be assessed
 
-- Turn off alarm
-- Get out of bed
+##
 
-## Breakfast
+\begin{figure}
+\includegraphics[width=8cm]{figs/hello.jpg}
+\end{figure}
 
-- Eat eggs
-- Drink coffee
+# Logistics
 
-# In the evening
+## Meet Your Instructors
 
-## Dinner
+\begin{table}[!h]
+\centering
+\begin{tabular}{cl l}%{m{1.5cm}}
+\addlinespace
+\multirow{7}{*}{\includegraphics[height=.175\textwidth]{figs/lachlandeer.jpg}} & 
+  Name:               & Lachlan Deer \tabularnewline
+& Contact:            & via Slack or \href{mailto:tisem.social.media@gmail.com}{\alertb{tisem.social.media@gmail.com}} \tabularnewline
+& Role in Course:     & Lectures \tabularnewline
+& Profile:            & \href{https://lachlandeer.github.io}{\alertb{Personal Webpage}} \tabularnewline
+& Office Hours:       & Monday, 3pm - 4pm, Online or K 711 \tabularnewline
+& Office Hour Format: & Hybrid, 15 min slots \tabularnewline
+& Booking Link:       & \href{https://calendly.com/lachlan-deer/smwa-office-hours}{\alertb{Click Here}} \tabularnewline
+\midrule
+\multirow{7}{*}{\includegraphics[height=.21\textwidth]{figs/roshini.jpg}} & 
+  Name:               & Roshini Sudhaharan \tabularnewline
+& Contact:            & via Slack or \href{mailto:tisem.social.media@gmail.com}{\alertb{tisem.social.media@gmail.com}} \tabularnewline
+& Role in Course:     & Lab Sections \tabularnewline
+& Profile:            & \href{https://www.tilburguniversity.edu/staff/r-sudhaharan}{\alertb{Personal Webpage}} \tabularnewline
+& Office Hours:       & TBA \tabularnewline
+& Office Hour Format: & Hybrid, 15 min slots \tabularnewline
+& Booking Link:       & TBA \tabularnewline
+\end{tabular}
+\end{table}
 
-- Eat spaghetti
-- Drink wine
 
-## Going to sleep
+## Class Structure
 
-- Get in bed
-- Count sheep
+* **In person**, no recordings
 
-# Before I Sleep
+* **Lectures** 
+    * Learning methods and doing marketing analytics (together)
+    * Discussing academic papers
 
-## I write equations
+* **Lab Sections** (*on campus*)
+    * Doing and discussing marketing analytics
+        * Based on weekly "Lab Assignments"
+    * (Something we haven't decided yet)
 
-$$
-y = x \beta + \varepsilon
-$$
+## Where to Find Stuff
+
+* [**\alertb{Course website}**](https://tisem-digital-marketing.github.io/2024-smwa/) is your # 1 resource
+  * Canvas only used for group allocation, grades
+
+* **Discussion / Chat**: [\alertb{Slack}](https://tisem-smwa-2024.slack.com/)
+  * Group Chat across different 'channels'
+
+* **Email** (if you must): \alertb{tisem.social.media@gmail.com}
+  * *Not* our personal email addresses
+
+* **Office Hours**
+  * Sign up using [\alertb{links}](https://tisem-digital-marketing.github.io/2023-smwa/home/instructors/)
+  * Check the Syllabus for instructions
+
+## Textbooks, Readings
+
+* **No Textbook** for the class
+  * Become outdated fast as digital markets and social media change rapidly
+  * ... as does taste in methods
+  * Some emphasise too much of the hype, remainder are too dry
+
+* **My job**: filter through the sea of information and teach what is useful and relevant
+  * No hype, hopefully not too dry
+
+* **Your job**: read over assigned readings, learn the skills
+  * I've curated course content to (hopefully) deliver the most insight with the least technical details
+  * Coding skills acquired should be easy to transfer to a different problem
+
+* Lecture slides will be on course website as PDFs
+
+## Things to Keep in Mind
+
+* This course is running in a **new format** this year
+  * With a larger **emphasis on methods** and **doing marketing analytics**
+  * There will likely be bugs ...
+  * ... We'll work through them together
+
+* **Mix of students** at various **levels**, from various **backgrounds**
+  * \alert{Some of the best experiences in class}: learning from others perspectives
+
+# What is Social Media & Web Analytics?
+
+## What is Marketing Analytics?
+
+**Marketing Analytics** is the practice of collecting and analyzing consumer and firm data to optimize a firm's marketing effectiveness and improve business/marketing decisions
+
+* \alert{\textbf{A young field}} with fast progress
+    * \alertb{Since the 1970s}: Conjoint Analysis
+    * \alertb{Since the 1990s}: Structural Models
+    * \alertb{In the last decade}: Rise of Modern Causal Inference, Machine Learning
+
+* \alert{The number of new methods} is increasing fast
+* \alert{Most important methods} originate outside the discipline of marketing, 
+    * Near the applications, the substance, the problem to be solved 
+    * From adjacent fields: economics, statistics, psychology, data science, political science
+
+\alertb{Marketing Analytics is an unusually diverse discipline}, cross-roads of other fields, great place for a broad perspective on methods
+
+## What is the Subfield of *Digital Marketing Analytics*?
+
+* \alert{Digital Marketing Analytics $\leftrightarrow$ Social Media and Web Analytics}
+    * Applying **marketing analytics** to the **online world**
+        * Websites, Online Advertising, Retail Platforms, Social Media
+
+* Quickly \alert{becoming one of the largest fields within marketing}
+    * Lots of data
+    * Increasingly the \alertb{main place where consumers and firms interact}
+
+
+## What is *This* Course About?
+
+**We want to:** 
+
+1. \alert{Understand and use statistics}
+    * Using facts you know to learn about facts you don’t know
+    * Understand statistical theory underlying specific methods
+    * Feel comfortable using these methods in your own work
+    * Learn, implement, apply, interpret, and explain methods even *after* the class ends
+    * The practical tools of research: theory, applications, simulation, programming — whatever is useful
+
+2. \alert{Learn how to define a topic for research, identifying the big idea, designing a research strategy to answer the question}
+    * Biggest factors impacting success: the question and the research design
+
+3. \alertb{Apply these techniques to digital markets and social media platforms}
+
+## Types of Empirical Analysis
+
+**What kind of empirical analysis are of interest to us as marketers?**
+
+* Descriptive Analysis
+* Causal Analysis
+* Predictive Analysis
+
+## Descriptive Analysis
+
+**Descriptive Analysis**: summarise characteristics of a data set
+
+* What does the data look like?
+  * Means, standard deviations distribution of data
+  * Results are (stylised) *facts*
+
+Examples:
+
+* How are users who discuss the US election connected on Twitter?
+* What topics are discussed on Yelp Reviews? 
+* Are discussions on Reddit about Albert Heijn different from those on Twitter?
+
+## Causal Analysis
+
+**Causal Analysis**: Does A lead to B?
+ 
+* Might also care about the mechanism of how it happens
+
+Examples:
+
+* Do Facebook ads increase product purchases?
+* Does product adoption by influencers increase demand?
+* Do tweets by TV studios increase the number of viewers of their show?
+
+**We'll spend a lot of time in this space**
+
+## Predictive Analysis
+
+**Predictive Analysis**: How can I best predict an outcome?
+
+* When A occurs, so does B
+
+Examples:
+
+* Is this review posted by a real person or by a bot?
+* How many retweets does Nike expect its next tweet to get?
+* Who is a new Twitter user likely to follow?
+
+**Not the focus of this class**
+
+* Can discuss it in Week 8 if there is the demand ...
+
+
+## How to do Social Media & Web Analytics
+
+Social Media & Web Analytics needs to combine tools from multiple areas:
+
+1. Statistical / Econometric Methods
+2. Text Analytics - 'Text-as-data'
+3. Network Analytics
+4. Machine Learning
+
+The exact **mix of these** used in any project depends on:
+
+* **The question** you want to answer 
+  * Example: Can one deliver valuable insight by ignoring the network structure?
+* **Personal taste**
+
+## Course Strategy 
+
+\alert{We could teach you}:
+
+* The latest and greatest methods, but soon after you graduate \alertb{they will be old}
+* All the methods that might prove useful for you, but soon after you graduate \alertb{you will be old}
+
+Instead, \alert{\textbf{we teach the fundamentals}}
+
+* Then you can learn new methods invented after class
+
+\alert{Balance of emphasis}: proofs v. concepts & intuition
+
+* Baby Stats: dumbed down proofs, vague intuition
+* Math Stats: rigorous mathematical proofs, no data experience
+* \alertb{\textbf{Practical Stats}}: math when needed, deep concepts and intuition
+    * \alertc{Ultimate Goal}: how to do empirical research, in depth
+    * \alertc{Procedure}: Traverse from theoretical foundations to practical application (including "how to do" computations)
+
+## Good and Bad News ...
+
+**Good news**: high quality social media & web analytics is incredibly useful
+
+Why?
+
+* Impacts a wide variety of industries
+  * Media & entertainment, politics, health care, FMCG, fashion & beauty, etc
+* It provides real answers to real problems in marketing and business strategy
+  * And *people care about the answers*
+
+Being able to do (good) social media & web analytics ensures many (enjoyable) job prospects
+
+## Good and Bad News ...
+
+**Bad News**: Its *hard*
+
+* One needs to learn about statistics, text analysis, networks (*and* machine learning) 
+* ... **and** be able to work on causal and predictive questions
+
+(That seems like *a lot*...)
+
+* And... learning the tools can be boring
+
+**_Opinion_**: I think the upside far, far outweighs the bad.
+
+
+# Where We Are Going
+
+## Course Objectives
+
+1. Explain and evaluate the challenges and opportunities online markets and social media present marketers.
+2. Summarize state of the art knowledge from the academic marketing literature about online markets and social media's impact on marketing.
+3. Provide intuitive explanations of statistical concepts from the areas of linear regression, causal inference, natural language processing and network analytics
+4. Implement statistical analysis to analyze social media data using tools from linear regression, causal inference, natural language processing and network analytics
+5. Interpret their own and other's statistical analysis of social media data
+6. Prescribe Managerial and Marketing strategies to improve business performance based on analytical findings.
+7. Appraise and critique the assumptions behind statistical analysis of social media data in a given setting and propose alternative methodologies to improve existing analysis
+
+## What We Will Cover
+
+**Four substantive blocks:**
+
+1. Research Design (Lectures 2 & 3)
+2. Field Experiments (Lectures 4 & 5)
+3. Quasi-Experiments (Lectures 6, 7 & 8)
+4. Text Analytics (Lectures 9, 10, 11)
+
+Lectures 12 and 13? Based on your preferences
+
+## Building an Analytics Toolkit
+
+1. **Casual Inference**
+    * A/B Testing
+    * Difference in Differences & Matching Methods
+
+2. **Text-as-Data**
+    * Summarising Text
+    * Measuring Sentiment
+    * Identify topics being discussed
+  
+## Building an Analytics Toolkit: Software
+
+1. **`R` - purpose built statistical software**
+  * Wide variety of statistical and graphical techniques
+  * Can do most analysis marketers need to do
+  * It's free and open source, and has a *friendly* user community
+
+2. **Git - Version Control**
+  * Track the changes to our code and writing systematically
+  * Improves 'replicability'
+    * *Highly valued* by employers in marketing analytics companies and in quantitative consulting
+
+**Your task before the Week 2**: 
+
+* Install required software on your computer 
+* Coding Bootcamp - refresh your skills where required
+
+# Assessment
+
+## Group Assignments (40%)
+
+* **2 group assignments** - each 20% of final grade.
+    * Group Allocation: random + changes between assignments
+    * *Group Assignment 1*: Casual Inference
+    * *Group Assignment 2*: Text Analytics
+
+* **Assignment Structure**:
+  * Multiple Parts
+  * Each part has multiple exercises
+  * Mix of analytics and interpretation
+  * Goal: walk through solving a problem
+* **Submission via GitHub Classroom**
+  - We'll introduce you to the details over next weeks
+  
+## Final Exam (60%)
+
+**Essentials:**
+
+* Closed Book, Pencil/Pen and Paper
+* 3 hours in length
+
+**Structure**: 
+
+* PART A: Multiple Choice (30%)
+* PART B : Short answer questions (40%)
+* PART C: A Structured essay question (30%)
+
+**Coverage**:
+
+* Everything from lectures, labs, and readings
+* *Including* writing / explaining short code snippets
+
+## Lab Assignments (Ungraded)
+
+**Essential Notions:**
+
+* Learning by doing... especially for methods
+* Mix of coding and conceptual
+* *Invest your time in these, it will pay off*
+
+**Answers?**
+
+* Selected answers posted online 
+* Cover some material in Lab Section with one week lag
+
+**Why?** 
+
+Practice for group assignment and exam
+
+##
+
+\begin{figure}
+\includegraphics[width=8cm]{figs/qanda.jpeg}
+\end{figure}
+
+##
+
+\begin{figure}
+\includegraphics[width=8cm]{figs/getstarted.png}
+\end{figure}
+
+## License & Citation
+\small
+Suggested Citation:
+
+```{r, engine='out', echo=TRUE, eval = FALSE}
+@misc{smwa2024_intro,
+      title={"Social Media and Web Analytics: Course Introduction"},
+      author={Lachlan Deer},
+      year={2024},
+      url = "https://tisem-digital-marketing.github.io/2024-smwa"
+}
+```
+
+This course adheres to the principles of the [\alertb{Open Science Community of Tilburg University}](https://www.tilburguniversity.edu/research/open-science-community). 
+This initiative advocates for transparency and accessibility in research and teaching to all levels of society and thus creating more accountability and impact.
+
+This work is licensed under a [\alertb{Creative Commons Attribution-ShareAlike 4.0 International License}](http://creativecommons.org/licenses/by-sa/4.0/).

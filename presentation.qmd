@@ -49,9 +49,9 @@ format:
 & Contact:            & via Slack or \href{mailto:tisem.social.media@gmail.com}{\alertb{tisem.social.media@gmail.com}} \tabularnewline
 & Role in Course:     & Lab Sections \tabularnewline
 & Profile:            & \href{https://www.tilburguniversity.edu/staff/r-sudhaharan}{\alertb{Personal Webpage}} \tabularnewline
-& Office Hours:       & TBA \tabularnewline
+& Office Hours:       & Wednesday, 2pm-3pm \tabularnewline
 & Office Hour Format: & Hybrid, 15 min slots \tabularnewline
-& Booking Link:       & TBA \tabularnewline
+& Booking Link:       & \href{https://calendly.com/r-sudhaharan/smwa-office-hours}{\alertb{Click Here}} \tabularnewline
 \end{tabular}
 \end{table}
 
@@ -67,7 +67,8 @@ format:
 * **Lab Sections** (*on campus*)
     * Doing and discussing marketing analytics
         * Based on weekly "Lab Assignments"
-    * (Something we haven't decided yet)
+    * Mix of coding and "theory"
+    * Led by student discussion
 
 ## Where to Find Stuff
 
@@ -288,9 +289,11 @@ Being able to do (good) social media & web analytics ensures many (enjoyable) jo
 1. Research Design (Lectures 2 & 3)
 2. Field Experiments (Lectures 4 & 5)
 3. Quasi-Experiments (Lectures 6, 7 & 8)
-4. Text Analytics (Lectures 9, 10, 11)
+4. Text Analytics (Lectures 9, 10 & 11)
 
 Lectures 12 and 13? Based on your preferences
+
+**Each class: \alert{Use examples from online markets, advertising, and social media to illustrate the concepts}**
 
 ## Building an Analytics Toolkit
 

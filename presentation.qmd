@@ -1,6 +1,6 @@
 ---
 title: "Social Media and Web Analytics"
-author: "Course Introduction, Spring 2024"
+author: "Course Introduction, Spring 2025"
 institute: "Lachlan Deer"
 format: 
   beamer: 
@@ -40,7 +40,7 @@ format:
 & Contact:            & via Slack or \href{mailto:tisem.social.media@gmail.com}{\alertb{tisem.social.media@gmail.com}} \tabularnewline
 & Role in Course:     & Lectures \tabularnewline
 & Profile:            & \href{https://lachlandeer.github.io}{\alertb{Personal Webpage}} \tabularnewline
-& Office Hours:       & Monday, 3pm - 4pm, Online or K 711 \tabularnewline
+& Office Hours:       & Monday, 2pm - 2:45pm, Online or K 711 \tabularnewline
 & Office Hour Format: & Hybrid, 15 min slots \tabularnewline
 & Booking Link:       & \href{https://calendly.com/lachlan-deer/smwa-office-hours}{\alertb{Click Here}} \tabularnewline
 \midrule
@@ -72,17 +72,17 @@ format:
 
 ## Where to Find Stuff
 
-* [**\alertb{Course website}**](https://tisem-digital-marketing.github.io/2024-smwa/) is your # 1 resource
+* [**\alertb{Course website}**](https://tisem-digital-marketing.github.io/2025-smwa/) is your # 1 resource
   * Canvas only used for group allocation, grades
 
-* **Discussion / Chat**: [\alertb{Slack}](https://tisem-smwa-2024.slack.com/)
+* **Discussion / Chat**: [\alertb{Slack}](https://tisem-smwa-2025.slack.com/)
   * Group Chat across different 'channels'
 
 * **Email** (if you must): \alertb{tisem.social.media@gmail.com}
   * *Not* our personal email addresses
 
 * **Office Hours**
-  * Sign up using [\alertb{links}](https://tisem-digital-marketing.github.io/2023-smwa/home/instructors/)
+  * Sign up using [\alertb{links}](https://tisem-digital-marketing.github.io/2025-smwa/home/instructors/)
   * Check the Syllabus for instructions
 
 ## Textbooks, Readings
@@ -90,7 +90,7 @@ format:
 * **No Textbook** for the class
   * Become outdated fast as digital markets and social media change rapidly
   * ... as does taste in methods
-  * Some emphasise too much of the hype, remainder are too dry
+  * Some emphasize too much of the hype, remainder are too dry
 
 * **My job**: filter through the sea of information and teach what is useful and relevant
   * No hype, hopefully not too dry
@@ -103,7 +103,7 @@ format:
 
 ## Things to Keep in Mind
 
-* This course is running in a **new format** this year
+* This course is running in a **new(-ish) format** this year
   * With a larger **emphasis on methods** and **doing marketing analytics**
   * There will likely be bugs ...
   * ... We'll work through them together
@@ -274,24 +274,23 @@ Being able to do (good) social media & web analytics ensures many (enjoyable) jo
 
 ## Course Objectives
 
-1. Explain and evaluate the challenges and opportunities online markets and social media present marketers.
-2. Summarize state of the art knowledge from the academic marketing literature about online markets and social media's impact on marketing.
-3. Provide intuitive explanations of statistical concepts from the areas of linear regression, causal inference, natural language processing and network analytics
-4. Implement statistical analysis to analyze social media data using tools from linear regression, causal inference, natural language processing and network analytics
-5. Interpret their own and other's statistical analysis of social media data
-6. Prescribe Managerial and Marketing strategies to improve business performance based on analytical findings.
-7. Appraise and critique the assumptions behind statistical analysis of social media data in a given setting and propose alternative methodologies to improve existing analysis
+1. Explain and evaluate the challenges and opportunities social media and digital markets  present marketers
+2. Provide intuitive explanations of statistical concepts from the areas of linear regression, causal inference and natural language processing
+3. Implement statistical analysis to analyze social media and digital market data using tools from linear regression, causal inference and natural language processing
+4. Interpret their own and other's statistical analysis of social media  and digital market’s data
+5. Prescribe Managerial and Marketing strategies to improve business performance based on analytical findings.
+6. Appraise and critique the assumptions behind statistical analysis of digital marketing data  in a given setting and propose alternative methodologies to improve existing analysis
 
 ## What We Will Cover
 
 **Four substantive blocks:**
 
 1. Research Design (Lectures 2 & 3)
-2. Field Experiments (Lectures 4 & 5)
-3. Quasi-Experiments (Lectures 6, 7 & 8)
+2. Field Experiments (Lectures 4 & 5, 6)
+3. Quasi-Experiments (Lectures 7 & 8)
 4. Text Analytics (Lectures 9, 10 & 11)
 
-Lectures 12 and 13? Based on your preferences
+Lectures 12 and 13? Based on your preferences & our time constraints
 
 **Each class: \alert{Use examples from online markets, advertising, and social media to illustrate the concepts}**
 
@@ -299,7 +298,7 @@ Lectures 12 and 13? Based on your preferences
 
 1. **Casual Inference**
     * A/B Testing
-    * Difference in Differences & Matching Methods
+    * Difference in Differences
 
 2. **Text-as-Data**
     * Summarising Text
@@ -325,12 +324,10 @@ Lectures 12 and 13? Based on your preferences
 
 # Assessment
 
-## Group Assignments (40%)
+## Group Assignments (20%)
 
-* **2 group assignments** - each 20% of final grade.
-    * Group Allocation: random + changes between assignments
-    * *Group Assignment 1*: Casual Inference
-    * *Group Assignment 2*: Text Analytics
+* Group Allocation: random + changes between assignments
+* *Group Assignment*:  Analyzing data from Field Experiments
 
 * **Assignment Structure**:
   * Multiple Parts
@@ -340,18 +337,17 @@ Lectures 12 and 13? Based on your preferences
 * **Submission via GitHub Classroom**
   - We'll introduce you to the details over next weeks
   
-## Final Exam (60%)
+## Final Exam (80%)
 
 **Essentials:**
 
 * Closed Book, Pencil/Pen and Paper
-* 3 hours in length
+* 2 hours in length
 
 **Structure**: 
 
 * PART A: Multiple Choice (30%)
-* PART B : Short answer questions (40%)
-* PART C: A Structured essay question (30%)
+* PART B : Short answer questions (70%)
 
 **Coverage**:
 
@@ -392,11 +388,11 @@ Practice for group assignment and exam
 Suggested Citation:
 
 ```{r, engine='out', echo=TRUE, eval = FALSE}
-@misc{smwa2024_intro,
+@misc{smwa2025_intro,
       title={"Social Media and Web Analytics: Course Introduction"},
       author={Lachlan Deer},
-      year={2024},
-      url = "https://tisem-digital-marketing.github.io/2024-smwa"
+      year={2025},
+      url = "https://tisem-digital-marketing.github.io/2025-smwa"
 }
 ```
 

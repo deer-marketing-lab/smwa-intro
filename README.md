@@ -1,7 +1,7 @@
 # Social Media and Web Analytics: Course Introduction
 
-[![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
-[![lifecycle](https://img.shields.io/badge/version-2024-red.svg)]()
+[![lifecycle](https://img.shields.io/badge/lifecycle-stable-green.svg)](https://www.tidyverse.org/lifecycle/#stable)
+[![lifecycle](https://img.shields.io/badge/version-2025-red.svg)]()
 
 
 ## Meta-Information
@@ -9,7 +9,7 @@
 * Module Maintainer: Lachlan Deer (`@lachlandeer`)
 * Course: [Social Media and Web Analytics](https://uvt.osiris-student.nl/#/onderwijscatalogus/extern/cursus/?collegejaar=huidig&taal=en&cursuscode=300459-M-6)
 * Institute: Dept of Marketing, Tilburg University
-* Current Version: [2024 edition](https://tisem-digital-marketing.github.io/2024-smwa)
+* Current Version: [2025 edition](https://tisem-digital-marketing.github.io/2025-smwa)
 
 ## Introduction
 
@@ -29,17 +29,17 @@ By the end of the lecture, you will be able to:
 
 ## Suggested Citation (for the Module)
 
-Deer, Lachlan. 2024. Social Media and Web Analytics: Course Introduction.
+Deer, Lachlan. 2025. Social Media and Web Analytics: Course Introduction.
 Tilburg University.
 url = "https://github.com/deer-marketing-lab/smwa-intro"
 
 ## Suggested Citation (Template)
 
 ```{r, engine='out', eval = FALSE}
-@misc{smwa2024,
+@misc{smwa2025,
       title={"Social Media and Web Analytics: Course Introduction"},
       author={Lachlan Deer},
-      year={2024},
+      year={2025},
       url = "https://github.com/deer-marketing-lab/smwa-intro"
 }
 ```
